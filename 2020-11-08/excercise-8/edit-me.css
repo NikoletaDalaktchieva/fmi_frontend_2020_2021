@@ -1,0 +1,20 @@
+#container1 {
+	height: calc(50% - 10px);
+	width: calc(100% - 10px);
+	border-style: solid;
+	border-color: #654321;
+	border-width: thick;
+	box-sizing: border-box;
+	margin: 5px;
+	padding: 5px; 
+}
+
+#container2 {
+	height:50%;
+	width:100%;
+	border-style: solid;
+	border-color: #006400;
+	border-width: thick;
+	box-sizing: border-box;
+	padding: 5px; 
+}
