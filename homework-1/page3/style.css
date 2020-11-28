@@ -1,0 +1,188 @@
+* {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(-100deg, #A2F2F1 0%, #B19AFE 100%);
+    margin: 0rem;
+ }
+
+header{
+    background-color: white;
+    position: relative;
+    padding-left: 2rem;
+}
+
+h1{
+    display: inline-block;
+}
+
+form{
+    display: inline;
+    position: absolute;
+    right: 2%;
+    top:5%;
+}
+
+.round {
+    width: 100%;
+    height: 1.2rem;
+    border-radius: 1rem;
+    border: 0.1rem #000 solid;
+    padding: 0.2rem;
+    border-color: gray;
+}
+
+
+.input-bar {
+    display: inline;
+    position: absolute;
+   
+    top: 25%;
+
+}
+
+#input-bar-search{
+    right: 2rem;
+}
+
+.input-icon {
+    position:absolute;
+    right: 0;
+    top: 25%;
+}
+
+#person-info{
+    padding: 0.5rem;
+    position: relative;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+#profile-picture-info {
+    position: relative;
+    width: 5.25rem;
+    height: 5.25rem;
+    left: 6rem;
+}
+
+h2 {
+    position: relative;
+    left: 20%;
+}
+
+#profile {
+    max-width: 18rem;
+    background-color: white;
+    margin: 1rem;
+}
+
+#profile-info{
+    height: 3.75rem;
+    background-color: #f6f7fd;
+    position: relative;
+    padding: 0.5rem;
+}
+
+
+table{
+    display: inline;
+    position: absolute;
+    top: 25%;
+}
+#profile-logout {
+    position: absolute;
+    right: 0.5rem;
+    border-radius:20rem;
+    max-width:5rem;
+    border-color: #54bdd6;
+    color: #54bdd6;
+    text-align: center;
+    height: 50%;
+    top: 25%;
+
+}
+
+tr {
+    color: #848694;
+    font-size: 0.75rem;
+   
+}
+
+td {
+    color: #54bdd6;
+    font-size: 1.125rem;
+}
+
+#page{
+    max-width: 55rem;
+}
+
+#say-something{
+    background-color:  #F6F7FD;
+    height: 3rem;
+    position: relative;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+}
+
+#profile-picture-say-something{
+    position: relative;
+    height: 2rem;
+    top:0.5rem;
+}
+
+#input-bar-say-somethin {
+    width: 70%;
+    left: 5rem;
+}
+
+#say-something-input{
+   background-color: transparent;
+   color: #54bdd6;
+   padding-left: 1rem;
+}
+
+.fa-comment-alt{
+    color: #54bdd6;
+}
+
+.comment-picture {
+    height: 2.5rem;
+}
+
+
+/* #page {
+    display: flex;
+} */
+
+
+.post {
+    display: flex;
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+#posts-banner {
+    background-color: white;
+}
+
+#post-content {
+    padding-left: 0.5rem;
+}
+
+h3, p{
+    margin: 0;
+}
+
+
+.fa-close{
+    color: #848694;
+    margin: 0;
+}
+
+hr{
+    margin: 0;
+}
